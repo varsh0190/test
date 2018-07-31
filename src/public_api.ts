@@ -1,7 +1,7 @@
 /*
- * Public API Surface of varsha-library
+ * Public API Surface of tetlib
  */
 
-export * from './lib/varsha-library.service';
-export * from './lib/varsha-library.component';
-export * from './lib/varsha-library.module';
+export * from './lib/tetlib.service';
+export * from './lib/tetlib.component';
+export * from './lib/tetlib.module';

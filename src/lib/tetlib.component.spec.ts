@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VarshaLibraryComponent } from './varsha-library.component';
+import { TetlibComponent } from './tetlib.component';
 
-describe('VarshaLibraryComponent', () => {
-  let component: VarshaLibraryComponent;
-  let fixture: ComponentFixture<VarshaLibraryComponent>;
+describe('TetlibComponent', () => {
+  let component: TetlibComponent;
+  let fixture: ComponentFixture<TetlibComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ VarshaLibraryComponent ]
+      declarations: [ TetlibComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VarshaLibraryComponent);
+    fixture = TestBed.createComponent(TetlibComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

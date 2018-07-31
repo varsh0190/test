@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-varsha-library',
+  selector: 'lib-tetlib',
   template: `
     <p>
-      varsha-library works!
+      tetlib works!
     </p>
   `,
   styles: []
 })
-export class VarshaLibraryComponent implements OnInit {
+export class TetlibComponent implements OnInit {
 
   constructor() { }
 
